@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #fff;
+    color: #fff;
+    padding: 1px ;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5px;
+    /* Ajusta el padding según sea necesario */
+}
+
+.left-img {
+    /* height: 240px; /* Ajusta la altura según sea necesario */
+    width: 100%;
+    height: 250px;
+    /* O el tamaño deseado */
+    overflow: hidden;
+}
+
+.right-img {
+    /*  height: 240px; /* Ajusta la altura según sea necesario */
+    /* flex-grow:1; /* Esto hace que la imagen de la derecha ocupe todo el espacio restante */
+    /*object-fit: cover; /* Asegura que la imagen se ajuste correctamente dentro de su contenedor */
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  
+
+}
+
+
+
+/* Estilo de la barra de menú */
+.navbar {
+    background-color: #39A900;
+    padding: 5px;
+    text-align: center;
+    /* Alinea los ítems de la barra de menú en el centro */
+
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    /* Permite definir el espacio entre los ítems */
+    margin: 0 20px;
+    /* Espacio a la izquierda y a la derecha de cada ítem */
+
+}
+
+.navbar ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    /* Espacio alrededor del texto del enlace */
+    display: block;
+    /* Asegura que el padding funcione correctamente */
+
+}
+
+.navbar ul li a:hover {
+    background-color: green;
+    ;
+    /* Fondo del enlace al pasar el ratón */
+    border-radius: 5px;
+    /* Bordes redondeados del fondo del enlace */
+    text-decoration: none;
+
+}
+
+
+main {
+    padding: 2rem 0;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background: #39A900;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+footer p {
+    margin: 0;
+}
